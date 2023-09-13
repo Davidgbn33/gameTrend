@@ -1,0 +1,46 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #070320;
+  min-height: 100vh;
+}
+
+.g-bg {
+  background-color: #070320;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+.g-container {
+  width: 100vw;
+  height: 75vh;
+}
+.g-text-orange {
+  color: #e87d0e;
+}
+.g-btn {
+  border-radius: 2.5rem;
+  background: linear-gradient(92deg, #d80027 2.08%, #fb9e3c 117.25%);
+}
+
+.g-mt-10 {
+  margin-top: 10rem;
+}
+.g-bg-img {
+  background: url(/img/background.svg) no-repeat center center;
+}
+.g-top {
+  top: 230px;
+}
+.g-fw-700 {
+  font-weight: 700;
+}
+.g-fw-500 {
+  font-weight: 500;
+}
