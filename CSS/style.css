@@ -1,7 +1,9 @@
-body {
-  box-sizing: border-box;
+* {
   margin: 0;
   padding: 0;
+}
+body {
+  box-sizing: border-box;
   background-color: #070320;
   min-height: 100vh;
 }
@@ -63,5 +65,10 @@ body {
   height: 500px;
 }
 .g-bg-img3 {
-  background: url(/img/section5.svg) no-repeat center center;
+  background: url(/img/section5.svg) no-repeat;
+}
+.g-box {
+  height: 60px;
+  width: 60px;
+  background-color: white;
 }
