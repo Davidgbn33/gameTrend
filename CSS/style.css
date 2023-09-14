@@ -12,7 +12,9 @@ body {
   background-color: #070320;
 }
 
-.font-poppins {
+.font-poppins,
+h6,
+a {
   font-family: "Poppins", sans-serif;
 }
 
@@ -25,6 +27,10 @@ body {
 .g-container2 {
   width: 100vw;
   height: 50vh;
+}
+.g-container3 {
+  width: 100vw;
+  height: 25vh;
 }
 .g-text-orange {
   color: #e87d0e;
@@ -65,10 +71,51 @@ body {
   height: 500px;
 }
 .g-bg-img3 {
-  background: url(/img/section5.svg) no-repeat;
+  background: url(/img/section5.svg) no-repeat center center / cover;
 }
-.g-box {
+.g-box-icone {
   height: 60px;
   width: 60px;
   background-color: white;
+}
+.g-box {
+  height: 270px;
+  background-color: white;
+}
+.g-img4 {
+  background: url(/img/Rectangle\ 15.svg) no-repeat center center / cover;
+}
+.g-img5 {
+  background: url(/img/Rectangle\ 16.svg) no-repeat center center / cover;
+}
+.g-img6 {
+  background: url(/img/Rectangle\ 17.svg) no-repeat center center / cover;
+}
+.g-img7 {
+  background: url(/img/Rectangle\ 19.svg) no-repeat center center / cover;
+}
+.g-img8 {
+  background: url(/img/Rectangle\ 18.svg) no-repeat center center / cover;
+}
+.g-img9 {
+  background: url(/img/Rectangle\ 20.svg) no-repeat center center / cover;
+}
+.g-btn2 {
+  background: rgba(255, 255, 255, 0.11);
+  border: none;
+  width: 100px;
+}
+.g-position {
+  top: -30vh;
+  right: -30vw;
+}
+.g-box-white {
+  height: 25vh;
+}
+#inputPassword2::placeholder {
+  color: white;
+}
+.g-box-c {
+  height: 40px;
+  width: 40px;
 }
