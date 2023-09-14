@@ -109,13 +109,16 @@ a {
   top: -30vh;
   right: -30vw;
 }
-.g-box-white {
-  height: 25vh;
-}
 #inputPassword2::placeholder {
   color: white;
 }
 .g-box-c {
   height: 40px;
   width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .g-position {
+    display: none;
+  }
 }
