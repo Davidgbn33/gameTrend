@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   background-color: #070320;
   min-height: 100vh;
+  background: linear-gradient(149deg, #070320 18.81%, #3b2a9f 199.4%);
 }
 .container {
   padding: 0;
