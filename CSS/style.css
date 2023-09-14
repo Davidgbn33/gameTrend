@@ -7,7 +7,12 @@ body {
   background-color: #070320;
   min-height: 100vh;
 }
-
+.container {
+  padding: 0;
+}
+.row {
+  margin: 0;
+}
 .g-bg {
   background-color: #070320;
 }
@@ -120,5 +125,15 @@ a {
 @media screen and (max-width: 768px) {
   .g-position {
     display: none;
+  }
+  .g-form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .g-media {
+    flex-direction: column;
+    align-items: center;
   }
 }
